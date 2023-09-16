@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .searchbar {
+        display: flex;
+        position: relative;
+        top: 2px;
+    }
+
+    #search {
+        padding: 4px;
+        border: none;
+        outline: none;
+        border-radius: 4px 0px 0px 4px;
+    }
+
+    label i {
+        background-color: #fff;
+        padding: 4px 4px 4px 0px;
+        border: none;
+        border-radius: 0px 4px 4px 0px;
+    }
+</style>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="" srcset="">
+            </div>
+            <div class="nav-options">
+                <ul>
+                    <div class="searchbar">
+                        <input type="search" id="search">
+                        <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                        <li>
+                    </div>
+                    <div class="dropdown">
+                        <a href="#" class="drpbtn" id="drp" style="display: inline-block;">Poducts</a>
+                        <i class="fa-solid fa-caret-down arrow"></i>
+                        <div id="myDropdown" style="display: none;">
+
+                            <a href="https://google.com" target="_blank">Furniture</a>
+                            <a href='#'>Decor</a>
+                        </div>
+                    </div>
+                    </li>
+                    <li><a href="#" class="ll">More</a></li>
+                    <li><a href="#" class="ll">Help</a></li>
+                </ul>
+            </div>
+
+
+            <div class="mobilemenu">
+                <div class="searchbar">
+                    <input type="search" id="search">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                </div>
+                <i class="fa-solid fa-bars menuLogo"></i>
+                <div class="mobile-nav-options">
+                    <ul>
+
+                        <li>
+                            <div class="dropdown2">
+                                <i class="fa-solid fa-caret-down arrow2" style="transform: rotate(0deg);"></i>
+                                <a href="#" class="drpbtn2" id="drp" style="display: inline-block;">Poducts</a>
+
+                                <div id="myDropdown2" style="display: none;">
+
+                                    <a href="https://google.com" target="_blank">Furniture</a>
+                                    <a href='#'>Decor</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="https://google.com" target="_blank" class="ll">More</a></li>
+                        <li><a href="#" class="ll">Help</a></li>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade slide1">
+            <h1>fashion</h1>
+        </div>
+
+        <div class="mySlides fade slide2">
+            <h1>furniture</h1>
+        </div>
+
+        <div class="mySlides fade slide3">
+            <h1>home decor</h1>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+
+    <div class="products">
+        <div class="product-card">
+            <h1 style="text-align: center ;">Men's T-shirts</h1>
+            <div class="product-details">
+                <img src="./catalog/Men's-t-shirts.jpeg" alt="men's t-shirts">
+                <div class="productDesk">
+                    <span>Description:</span>
+                    <p>Product Type : t-shirts</p>
+                    <p>Material : Cotton,Polyster,Polycotton</p>
+                    <p>Offers : <span style="color: brown;">limited</span> </p>
+                    <p>COD : <span>Available</span> </p>
+                </div>
+
+                <a href="#">See more</a>
+            </div>
+        </div>
+        <div class="product-card">
+            <h1 style="text-align: center ;">Designer Suit's</h1>
+            <div class="product-details">
+                <img src="./catalog/designer-men's-suit.jpg" alt="">
+                <div class="productDesk">
+                    <span>Description:</span>
+                    <p>Product Type :Suits</p>
+                    <p>Material : Cotton,velvet</p>
+                    <p>Offers : <span style="color: brown;">limited</span> </p>
+                    <p>COD : <span>Available</span> </p>
+                </div>
+                <a href="#">See more</a>
+
+            </div>
+        </div>
+        <div class="product-card">
+            <h1 style="text-align: center ;
+
+            background: #f790da;
+            background: linear-gradient(to right, #B0649B 0%, #EB88F2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            ">Women's T-shirts</h1>
+            <div class="product-details">
+                <img src="./catalog/womes's t-ishirts.jpeg" alt="">
+                <div class="productDesk">
+                    <span>Description:</span>
+                    <p>Product Type : t-shirts</p>
+                    <p>Material : Cotton,Polyster,Polycotton</p>
+                    <p>Offers : <span style="color: rgb(42, 165, 44);">Available</span> </p>
+                    <p>COD : <span>Available</span> </p>
+                </div>
+                <a href="#">See more</a>
+
+            </div>
+        </div>
+        <div class="product-card">
+            <h1 style="text-align: center ;
+             background: #f790da;
+            background: linear-gradient(to right, #B0649B 0%, #EB88F2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            ">Women's Suit's</h1>
+            <div class="product-details">
+                <img src="./catalog/womens-suits.jpg" alt="">
+                <div class="productDesk">
+                    <span>Description:</span>
+                    <p>Product Type : Suits</p>
+                    <p>Material : Cotton,Polyster,Polycotton</p>
+                    <p>Offers : <span style="color: brown;">limited</span> </p>
+                    <p>COD : <span>Unavailable</span> </p>
+                </div>
+                <a href="#">See more</a>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
