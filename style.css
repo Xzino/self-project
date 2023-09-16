@@ -47,6 +47,26 @@ body {
   position: absolute;
   right: 17px;
 }
+.searchbar {
+  display: flex;
+  position: relative;
+  top: 2.5px;       
+}
+
+#search{
+  padding: 4px;
+  border: none;
+  outline: none;
+  width: 155px;
+  border-radius: 4px 0px 0px 4px;
+}
+
+label i {
+  background-color: #fff;
+  padding: 4px 4px 4px 0px;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+}
 
 .dropdown {
   position: relative;
