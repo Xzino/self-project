@@ -47,9 +47,7 @@ body {
   position: absolute;
   right: 17px;
 }
-/* .nav-options ul {
-  align-items: center;
-} */
+
 .dropdown {
   position: relative;
   /* width:7.5vw; */
@@ -171,7 +169,7 @@ img {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 10px;
   margin-top: -22px;
   color: white;
   font-weight: bold;

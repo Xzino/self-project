@@ -145,20 +145,12 @@ position: relative;
 }
 .searchbar{
   margin-right: 16px;
-  top: -1px;
+  top: -0.5px;
+}
+#search{
+  width: 78px;
 }
 .searchbar i {
   display: block;
   cursor: pointer;
-
-}
-#search{
-  width: 0px;
-
-}
-
-
-.searchbar:hover #search{
-  width: 145px;
-
 }
